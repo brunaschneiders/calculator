@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+}
+
+.header{
+    height: 225px;
+    width: 100%;
+    border-top: 10px double rgb(233, 229, 229);
+    border-bottom: 10px double rgb(233, 229, 229);
+    position: fixed;
+    background-image: linear-gradient(to right, rgb(44, 47, 48), white);
+    z-index: 1;
+}
+
+.topDireita{
+    width: 45%;
+    height: 100%;
+    display: block;
+    float: right;
+    background-image: url("../imagens/idosos.png");   
+    background-repeat: no-repeat;  
+    -webkit-mask-image: linear-gradient(to right, transparent, darkcyan 70%);
+    position: relative;
+    
+}
+
+.topEsquerda{
+    width: 50%;
+    height: 100%;
+    font-size: 50px;
+    color: white;
+    text-shadow: 5px 5px 10px black;
+    display: flex;
+    align-items: center;
+    float: left;
+    position: relative;
+    margin-left: 5%;
+}
+
+.formularios{
+    top: 260px;
+    position: absolute;
+    height: 250px;
+    width: 100%;
+}
+
+.formularioDados{
+    margin-left: 10%;
+    width: 29,5%;
+    height: 225px;
+    font-size: 20px;
+    color: rgb(44, 47, 48);
+    display: block;
+    position: relative;
+    float: left;
+}
+
+#txtNome{
+    width: 400px;
+    height: 35px;
+    border-color: rgb(44, 47, 48);
+    border-width: 1px;
+    font-size: 20px;
+    color: rgb(78, 78, 78);
+}
+
+#txtIdade{
+    width: 400px;
+    height: 35px;
+    border-color: rgb(44, 47, 48);
+    border-width: 1px;
+    font-size: 20px;
+    color: rgb(78, 78, 78);
+}
+
+#txtContribuicao{
+    width: 400px;
+    height: 35px;
+    border-color: rgb(44, 47, 48);
+    border-width: 1px;
+    font-size: 20px;
+    color: rgb(78, 78, 78);
+}
+
+#btnCalcular{
+    background-color: rgb(44, 47, 48);
+    border: none;
+    color: white;
+    display: inline-block;
+    float: right;
+    margin-right: 6.5px;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.nome{
+    margin-left: 50%;
+    margin-top: 2%;
+    width: 50%;
+    height: 225px;
+    font-size: 50px;
+    color: rgb(44, 47, 48);
+    display: block;
+    position: relative;
+}
+
+.resultado{
+    margin-top: 7%;
+    width: 90%;
+    height: 225px;
+    font-size: 40px;
+    color: rgb(44, 47, 48);
+    display: block;
+    position: relative;
+}
+
